@@ -1,0 +1,1 @@
+{"timestamp": "2026-09-30T10:10:20Z", "transaction_id": "tx_7ea83d8d54db", "event_type": "LEGAL_QUERY_EXECUTION", "user_id": "user_advocate_101", "tenant_id": "tenant_law_firm_alpha", "query": "Sanctioned swimming pool missing as per RTI reply", "status": "SUCCESS", "metadata": {"grounding_score": 59.5, "has_draft": true, "execution_ms": 586.12}}

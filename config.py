@@ -31,3 +31,10 @@ ENABLE_DUCKDUCKGO_FALLBACK = True
 
 # Legal Drafting Defaults
 DEFAULT_JURISDICTION = "RERA Tribunal / State High Court"
+
+# Enterprise Microservice & Security Configuration
+ENABLE_ENTERPRISE_SECURITY = os.environ.get("ENABLE_ENTERPRISE_SECURITY", "true").lower() == "true"
+ENTERPRISE_TENANT_ID = os.environ.get("ENTERPRISE_TENANT_ID", "tenant_law_firm_alpha")
+FASTAPI_PORT = int(os.environ.get("FASTAPI_PORT", 8000))
+AUDIT_LOG_FILE = BASE_DIR / "logs" / "enterprise_audit.jsonl"
+
